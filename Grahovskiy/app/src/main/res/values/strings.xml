@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Grahovskiy</string>
+    <string name="action_settings">Settings</string>
+    <string name="ManRadioButtonText">Man</string>
+    <string name="WomanRadioButtonText">Woman</string>
+    <string name="AgeLabelText">Age: </string>
+    <string name="SexLabelText">Sex: </string>
+    <string name="WeightLabelText">Weight: </string>
+    <string name="GrowthLabelText">Growth: </string>
+    <string name="ActivityLabelText">Activity: </string>
+    <string-array name="ActivityArray">
+        <item>Passive lifestyle</item>
+        <item>Half-average activity</item>
+        <item>Average</item>
+        <item>Active</item>
+        <item>Sportsman</item>
+    </string-array>
+    <string name="CheckButtonText">Check</string>
+</resources>
