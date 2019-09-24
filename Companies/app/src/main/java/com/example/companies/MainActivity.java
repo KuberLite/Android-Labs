@@ -2,10 +2,12 @@ package com.example.companies;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -60,6 +62,8 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+
+
     }
 
     public CompanyModel getCompany(String email, String location, String phone, String socialnetworklink){
@@ -80,5 +84,11 @@ public class MainActivity extends AppCompatActivity {
         else{
             Toast.makeText(getApplicationContext(), "Failed!", Toast.LENGTH_SHORT).show();
         }
+    }
+
+    public void phoneClick(View v){
+        Toast.makeText(this, "Clickable", Toast.LENGTH_SHORT);
+        TextView tv= findViewById(R.id.linkTextView);
+        tv.setTextColor(Color.GREEN);
     }
 }
