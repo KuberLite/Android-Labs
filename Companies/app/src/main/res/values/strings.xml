@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Companies</string>
+    <string name="title">Add your company</string>
+    <string name="email">Email</string>
+    <string name="location">City</string>
+    <string name="phone">Phone</string>
+    <string name="socialNetworkLink">Link</string>
+    <string name="buttonSend">Send</string>
+</resources>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Calendar</string>
+    <string name="action_settings">Grahovskiy.Inc</string>
+    <string name="SaveButtonText">Save</string>
+    <string name="DeleteButtonText">Delete</string>
+</resources>
